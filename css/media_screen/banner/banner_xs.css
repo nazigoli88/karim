@@ -1,0 +1,25 @@
+@media (max-width: 576px) {
+  section.banner {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    /* flex-flow: column;
+      align-items: center;
+      gap: 25px; */
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  section.banner > div {
+    width: 80%;
+  }
+  section.banner > div > a {
+    width: 100%;
+    display: flex;
+    border-radius: 16px;
+  }
+  section.banner > div > a > img {
+    width: 100%;
+    border-radius: inherit;
+  }
+}

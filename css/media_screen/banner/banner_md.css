@@ -1,0 +1,22 @@
+@media (min-width: 768px) and (max-width: 992px) {
+  section.banner {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  section.banner > div {
+    width: 45%;
+  }
+  section.banner > div > a {
+    width: 100%;
+    display: flex;
+    border-radius: 16px;
+  }
+  section.banner > div > a > img {
+    width: 100%;
+    border-radius: inherit;
+  }
+}
